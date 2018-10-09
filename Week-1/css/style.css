@@ -1,0 +1,56 @@
+h1 {
+    color:rgb(13, 18, 99);
+    font-size: 40px;
+    text-shadow: 4px 4px 5px gray;
+    text-align: center;
+ }
+.Titel {
+    text-align: center;
+    width: 100%;
+}
+.divSize {
+    width: 33%;
+    float: left;
+    font-size: 22px;
+}
+.HeadTitels {
+    font-size: 30px;
+    color: brown;
+}
+.photo {
+    width: 150px;
+    float: left;
+    padding: 2px;
+    margin-right:20px;
+    box-shadow: 4px 4px 5px gray;
+}
+.listIcon {
+    margin-left: 150px;
+    list-style-image: url("../img/info.png");
+}
+.listInfo {
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+.locationIcon {
+    list-style-image: url("../img/location.png");
+}
+.telephoneIcon {
+    list-style-image: url("../img/mobileicon.png");
+}
+.emailIcon {
+    list-style-image: url("../img/Email.png");
+}
+.facebookIcon {
+    list-style-image: url("../img/Facebook.png"); 
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.hobbiesText {
+    font-size: 20px;
+    font-style: italic;
+}

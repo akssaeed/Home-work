@@ -1,0 +1,29 @@
+create a hidden file using ls command.
+	1-Windows Os
+		$ touch file.txt
+		$ attrib +h file.txt
+
+	2-Linux Os
+		$ touch file.txt
+		$ mv file.txt .file.txt
+
+display a hidden file using ls command.
+	$ ls -la
+
+create 'fun' directory along with all directories in the path below:
+/c/Users/unmesh/these/folders/are/just/for/fun
+
+	$ mkdir -p /c/Users/unmesh/these/folders/are/just/for/fun
+
+
+wc -c fun
+	$ 18 fun (18 byte)
+
+how to append something in the file *WITHOUT* a newline character.
+	
+	$ echo "test" > fun
+	$ echo -n "another test" > fun
+	$ cat fun
+
+
+
